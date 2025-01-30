@@ -21,6 +21,21 @@ if (score >= 60) {
 
 //Task3
 
-for (let i = 10; i >= 10; i--){
+for (let i = 10; i >= 10; i--) {
     console.log(i);
+}
+
+//Task 4
+
+let nun = 2;
+while (num <= 10) {
+    console.log(num);
+    num+= 2;
+}
+
+//Task 5
+
+function calculateSquare (num) {
+return num * num;
+console.log(calculateSquare (4));
 }
